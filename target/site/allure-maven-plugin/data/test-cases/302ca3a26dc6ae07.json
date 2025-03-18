@@ -1,0 +1,56 @@
+{
+  "uid" : "302ca3a26dc6ae07",
+  "name" : "Переход к разделу «Булки».",
+  "fullName" : "constructor.MoveConstructorTest.navigationToBuns",
+  "historyId" : "59a7326e63085e8b2cebd63aff56490b",
+  "time" : {
+    "start" : 1742306212165,
+    "stop" : 1742306214630,
+    "duration" : 2465
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "constructor"
+  }, {
+    "name" : "testClass",
+    "value" : "constructor.MoveConstructorTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigationToBuns"
+  }, {
+    "name" : "suite",
+    "value" : "constructor.MoveConstructorTest"
+  }, {
+    "name" : "host",
+    "value" : "KarinaS"
+  }, {
+    "name" : "thread",
+    "value" : "14072@KarinaS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "302ca3a26dc6ae07.json",
+  "parameterValues" : [ ]
+}

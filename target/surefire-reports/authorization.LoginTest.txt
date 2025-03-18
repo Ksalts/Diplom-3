@@ -1,0 +1,70 @@
+-------------------------------------------------------------------------------
+Test set: authorization.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 3, Skipped: 0, Time elapsed: 24.489 s <<< FAILURE! - in authorization.LoginTest
+loginThroughRestorePasswordPageButton(authorization.LoginTest)  Time elapsed: 8.028 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//a[text()='Восстановить пароль']"}
+  (Session info: chrome=134.0.6998.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb751c6f9fffd6b2b310c73d6c07d80c, findElement {using=xpath, value=.//a[text()='Восстановить пароль']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ksalt\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49602}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49602/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fb751c6f9fffd6b2b310c73d6c07d80c
+	at authorization.LoginTest.loginThroughRestorePasswordPageButton(LoginTest.java:47)
+
+loginThroughRestorePasswordPageButton(authorization.LoginTest)  Time elapsed: 8.028 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path success doesn't match.
+Expected: <true>
+  Actual: <nullErrorNot Found>
+
+	at authorization.LoginTest.endSession(LoginTest.java:66)
+
+loginThroughRegistrationPageButton(authorization.LoginTest)  Time elapsed: 8.049 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//a[(@class = 'Auth_link__1fOlj' and text()= 'Зарегистрироваться')]"}
+  (Session info: chrome=134.0.6998.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a4033ee98083478946d9288122202a4e, findElement {using=xpath, value=.//a[(@class = 'Auth_link__1fOlj' and text()= 'Зарегистрироваться')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ksalt\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49673}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49673/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a4033ee98083478946d9288122202a4e
+	at authorization.LoginTest.loginThroughRegistrationPageButton(LoginTest.java:59)
+
+loginThroughRegistrationPageButton(authorization.LoginTest)  Time elapsed: 8.049 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path success doesn't match.
+Expected: <true>
+  Actual: <nullErrorNot Found>
+
+	at authorization.LoginTest.endSession(LoginTest.java:66)
+
+loginThroughPersonalAccountButton(authorization.LoginTest)  Time elapsed: 8.407 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//button[contains(text(),'Оформить заказ')]"}
+  (Session info: chrome=134.0.6998.89)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7835a158aa037d652d8a5573419aa283, findElement {using=xpath, value=.//button[contains(text(),'Оформить заказ')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ksalt\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49723}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49723/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7835a158aa037d652d8a5573419aa283
+	at authorization.LoginTest.loginThroughPersonalAccountButton(LoginTest.java:37)
+
+loginThroughPersonalAccountButton(authorization.LoginTest)  Time elapsed: 8.407 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+XML path success doesn't match.
+Expected: <true>
+  Actual: <nullErrorNot Found>
+
+	at authorization.LoginTest.endSession(LoginTest.java:66)
+

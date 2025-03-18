@@ -1,0 +1,56 @@
+{
+  "uid" : "ec59658b2444cfc1",
+  "name" : "Переходы к разделу «Начинки».",
+  "fullName" : "constructor.MoveConstructorTest.navigationToFillings",
+  "historyId" : "a13f81f772f5c27f2d70180bf5399364",
+  "time" : {
+    "start" : 1742306207339,
+    "stop" : 1742306209775,
+    "duration" : 2436
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "constructor"
+  }, {
+    "name" : "testClass",
+    "value" : "constructor.MoveConstructorTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigationToFillings"
+  }, {
+    "name" : "suite",
+    "value" : "constructor.MoveConstructorTest"
+  }, {
+    "name" : "host",
+    "value" : "KarinaS"
+  }, {
+    "name" : "thread",
+    "value" : "14072@KarinaS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ec59658b2444cfc1.json",
+  "parameterValues" : [ ]
+}

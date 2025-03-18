@@ -1,0 +1,173 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "authorization",
+    "children" : [ {
+      "name" : "accountLogin",
+      "uid" : "586325ae0378fbe",
+      "parentUid" : "05b74409380457fcfd5d869852b3588c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1742306167450,
+        "stop" : 1742306173758,
+        "duration" : 6308
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginThroughRestorePasswordPageButton",
+      "uid" : "7bf3484c78f05db1",
+      "parentUid" : "05b74409380457fcfd5d869852b3588c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1742306173796,
+        "stop" : 1742306181852,
+        "duration" : 8056
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginThroughRegistrationPageButton",
+      "uid" : "e9b0a283034bc57c",
+      "parentUid" : "05b74409380457fcfd5d869852b3588c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1742306181855,
+        "stop" : 1742306189902,
+        "duration" : 8047
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginThroughPersonalAccountButton",
+      "uid" : "eb8ce553adf8b1a2",
+      "parentUid" : "05b74409380457fcfd5d869852b3588c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1742306189905,
+        "stop" : 1742306198311,
+        "duration" : 8406
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logout",
+      "uid" : "b7bef781864a5711",
+      "parentUid" : "05b74409380457fcfd5d869852b3588c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1742306198314,
+        "stop" : 1742306207336,
+        "duration" : 9022
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "05b74409380457fcfd5d869852b3588c"
+  }, {
+    "name" : "constructor",
+    "children" : [ {
+      "name" : "navigationToFillings",
+      "uid" : "ec59658b2444cfc1",
+      "parentUid" : "80c6ecc2a76a7ea3530fb03b0f3f429e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1742306207339,
+        "stop" : 1742306209775,
+        "duration" : 2436
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "navigationToSauces",
+      "uid" : "1820dbe2c3acbe12",
+      "parentUid" : "80c6ecc2a76a7ea3530fb03b0f3f429e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1742306209776,
+        "stop" : 1742306212163,
+        "duration" : 2387
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "navigationToBuns",
+      "uid" : "302ca3a26dc6ae07",
+      "parentUid" : "80c6ecc2a76a7ea3530fb03b0f3f429e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1742306212165,
+        "stop" : 1742306214630,
+        "duration" : 2465
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "moveMainPageWithConstructorButton",
+      "uid" : "d3ab7b36b808d52",
+      "parentUid" : "80c6ecc2a76a7ea3530fb03b0f3f429e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1742306214632,
+        "stop" : 1742306223077,
+        "duration" : 8445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "moveMainPageWithLogoButton",
+      "uid" : "7cdbfcd02d91efc6",
+      "parentUid" : "80c6ecc2a76a7ea3530fb03b0f3f429e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1742306223082,
+        "stop" : 1742306232278,
+        "duration" : 9196
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "80c6ecc2a76a7ea3530fb03b0f3f429e"
+  }, {
+    "name" : "registration",
+    "children" : [ {
+      "name" : "registrationSuccess",
+      "uid" : "c94899610afeba83",
+      "parentUid" : "7446d645ca1a971e0b5ec6f065992842",
+      "status" : "failed",
+      "time" : {
+        "start" : 1742306232391,
+        "stop" : 1742306235390,
+        "duration" : 2999
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shortPassword",
+      "uid" : "7765ba555606e77b",
+      "parentUid" : "7446d645ca1a971e0b5ec6f065992842",
+      "status" : "passed",
+      "time" : {
+        "start" : 1742306235392,
+        "stop" : 1742306238773,
+        "duration" : 3381
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7446d645ca1a971e0b5ec6f065992842"
+  } ]
+}

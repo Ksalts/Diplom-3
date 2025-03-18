@@ -1,0 +1,8 @@
+base\BaseTest.class
+registration\WrongPasswordTest.class
+authorization\AccountLoginTest.class
+registration\RegistrationTest.class
+authorization\LoginTest.class
+constructor\MoveMainPageTest.class
+authorization\LogoutTest.class
+constructor\MoveConstructorTest.class

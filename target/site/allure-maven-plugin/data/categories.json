@@ -1,0 +1,117 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "1 expectation failed.\nXML path success doesn't match.\nExpected: <true>\n  Actual: <nullErrorNot Found>\n",
+      "children" : [ {
+        "name" : "Переход по клику на «Личный кабинет»",
+        "uid" : "586325ae0378fbe",
+        "parentUid" : "a3ce10440f48af4a87d3caecec824407",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742306167450,
+          "stop" : 1742306173758,
+          "duration" : 6308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация через кнопку в форме восстановления пароля",
+        "uid" : "7bf3484c78f05db1",
+        "parentUid" : "a3ce10440f48af4a87d3caecec824407",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742306173796,
+          "stop" : 1742306181852,
+          "duration" : 8056
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация через кнопку в форме регистрации",
+        "uid" : "e9b0a283034bc57c",
+        "parentUid" : "a3ce10440f48af4a87d3caecec824407",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742306181855,
+          "stop" : 1742306189902,
+          "duration" : 8047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Авторизация через кнопку Личный кабинет",
+        "uid" : "eb8ce553adf8b1a2",
+        "parentUid" : "a3ce10440f48af4a87d3caecec824407",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742306189905,
+          "stop" : 1742306198311,
+          "duration" : 8406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверь выход по кнопке «Выйти» в личном кабинете.",
+        "uid" : "b7bef781864a5711",
+        "parentUid" : "a3ce10440f48af4a87d3caecec824407",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742306198314,
+          "stop" : 1742306207336,
+          "duration" : 9022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Gереход из личного кабинета в конструктор по клику на «Конструктор»",
+        "uid" : "d3ab7b36b808d52",
+        "parentUid" : "a3ce10440f48af4a87d3caecec824407",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742306214632,
+          "stop" : 1742306223077,
+          "duration" : 8445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверь переход из личного кабинета в конструктор по клику на логотип Stellar Burgers",
+        "uid" : "7cdbfcd02d91efc6",
+        "parentUid" : "a3ce10440f48af4a87d3caecec824407",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742306223082,
+          "stop" : 1742306232278,
+          "duration" : 9196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Успешная регистрация пользователя",
+        "uid" : "c94899610afeba83",
+        "parentUid" : "a3ce10440f48af4a87d3caecec824407",
+        "status" : "failed",
+        "time" : {
+          "start" : 1742306232391,
+          "stop" : 1742306235390,
+          "duration" : 2999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a3ce10440f48af4a87d3caecec824407"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
