@@ -45,6 +45,7 @@
       <artifactId>allure-rest-assured</artifactId>
       <version>${allure.version}</version>
     </dependency>
+
     <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
@@ -66,6 +67,7 @@
       <artifactId>javafaker</artifactId>
       <version>1.0.2</version>
     </dependency>
+
     <dependency>
       <groupId>io.github.bonigarcia</groupId>
       <artifactId>webdrivermanager</artifactId>

@@ -3,7 +3,7 @@ import constants.Constants;
 import io.qameta.allure.Step;
 import io.restassured.http.ContentType;
 import io.restassured.response.ValidatableResponse;
-import constants.Constants;
+
 
 import static io.restassured.RestAssured.given;
 import static java.net.HttpURLConnection.HTTP_ACCEPTED;
@@ -12,7 +12,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 
 public class UserClient {
     @Step("Логин пользователя")
-    public  ValidatableResponse login (User user){
+    public  ValidatableResponse login(User user){
         return given()
                 .log()
                 .all()
@@ -28,7 +28,7 @@ public class UserClient {
     }
 
     @Step("Удаление пользователя")
-    public void delete (String accessToken) {
+    public void delete(String accessToken) {
         given()
                 .log()
                 .all()

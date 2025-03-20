@@ -3,7 +3,7 @@ import pageObject.Profile;
 import user.CreateUser;
 import user.User;
 import user.UserClient;
-import user.CreateUser;
+
 import io.restassured.response.ValidatableResponse;
 import org.junit.After;
 import org.junit.Before;
@@ -15,6 +15,7 @@ import pageObject.LoginPage;
 import pageObject.MainPage;
 import pageObject.Profile;
 
+
 import java.time.Duration;
 
 public class AccountLoginTest extends base.BaseTest {
@@ -24,7 +25,7 @@ public class AccountLoginTest extends base.BaseTest {
     @Before
     public void setUp() {
         userClient = new UserClient();
-        testUser = new CreateUser("test1","asdfjkl;12","k.saltanovska@gmail.com");
+        testUser = new CreateUser("test1","landoriuso@gmail.com","asdfjkl;12");
         userClient.register(testUser);
     }
 

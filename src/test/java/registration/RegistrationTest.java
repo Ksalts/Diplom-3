@@ -1,5 +1,5 @@
 package registration;
-import io.qameta.allure.Description;
+
 import user.User;
 import user.UserClient;
 import com.github.javafaker.Faker;

@@ -21,7 +21,7 @@ public class LoginTest extends base.BaseTest {
     @Before
     public void setUp(){
         userClient = new UserClient();
-        testUser = new CreateUser("test1","asdfjkl;12","k.saltanovska@gmail.com");
+        testUser = new CreateUser("test1","landoriuso@gmail.com","asdfjkl;12");
         userClient.register(testUser);
 
     }
@@ -45,8 +45,10 @@ public class LoginTest extends base.BaseTest {
         RestorePasswordPage restorePasswordPage = new RestorePasswordPage(webDriver);
         mainPage.clickSignInButton();
         loginPage.clickRestorePasswordButton();
-        loginPage.clickSignInButton();
+        restorePasswordPage.clickSignInButton();
         loginPage.enterEmailAndPassword(testUser.getEmail(), testUser.getPassword());
+        loginPage.clickSignInButton();
+        mainPage.findOrderButton();
     }
 
     @Test
@@ -58,6 +60,8 @@ public class LoginTest extends base.BaseTest {
         mainPage.clickSignInButton();
         loginPage.clickLittleRegisterButton();
         registerPage.clickSignInButton();
+        loginPage.enterEmailAndPassword(testUser.getEmail(), testUser.getPassword());
+        loginPage.clickSignInButton();
         mainPage.findOrderButton();
     }
     @After

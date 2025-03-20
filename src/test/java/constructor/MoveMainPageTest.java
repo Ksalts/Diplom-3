@@ -25,7 +25,7 @@ public class MoveMainPageTest extends base.BaseTest {
     @Before
     public void setUp() {
         userClient = new UserClient();
-        testUser = new CreateUser("test1","asdfjkl;12","k.saltanovska@gmail.com");
+        testUser = new CreateUser("test1","landoriuso@gmail.com","asdfjkl;12");
         userClient.register(testUser);
     }
 
@@ -47,7 +47,7 @@ public class MoveMainPageTest extends base.BaseTest {
     }
 
     @Test
-    @DisplayName("Gереход из личного кабинета в конструктор по клику на «Конструктор»")
+    @DisplayName("Переход из личного кабинета в конструктор по клику на «Конструктор»")
     public void moveMainPageWithConstructorButton() {
         MainPage mainPage = new MainPage(webDriver);
         Profile profilePage = new Profile(webDriver);

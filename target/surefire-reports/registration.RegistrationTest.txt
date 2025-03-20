@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: registration.RegistrationTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.109 s <<< FAILURE! - in registration.RegistrationTest
-registrationSuccess(registration.RegistrationTest)  Time elapsed: 2.999 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-XML path success doesn't match.
-Expected: <true>
-  Actual: <nullErrorNot Found>
-
-	at registration.RegistrationTest.close(RegistrationTest.java:39)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.57 s - in registration.RegistrationTest

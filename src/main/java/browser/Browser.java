@@ -1,5 +1,6 @@
 package browser;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -17,23 +18,23 @@ public class Browser {
         String browserProperty = properties.getProperty("testBrowser");
         BrowserType browserType = BrowserType.valueOf(browserProperty);
 
-        switch (browserType){
+        switch (browserType) {
             case CHROME:
                 ChromeOptions chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments("--start-maximized");
                 chromeOptions.addArguments("--remote-allow-origins=");
-                System.setProperty("webdriver.chrome.webDriver", "src/test/resources/drivers/chrome/chromedriver");
+
                 webDriver = new ChromeDriver(chromeOptions);
                 break;
+
             case YANDEX:
-                System.setProperty("webdriver.chrome.webDriver", "src/test/resources/drivers/yandex/yandexdriver");
+                System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/yandex/yandexdriver");
                 webDriver = new ChromeDriver();
                 break;
+
             default:
                 throw new RuntimeException("Browser undefined");
-
         }
         return webDriver;
     }
-
 }

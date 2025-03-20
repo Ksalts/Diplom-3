@@ -24,7 +24,7 @@ public class Profile {
     }
 
     public void checkLogoutButton(){
-        String textOfLogoutButton = webDriver.findElement(logoButton).getText();
+        String textOfLogoutButton = webDriver.findElement(logOutButton).getText();
         MatcherAssert.assertThat(textOfLogoutButton, startsWith("Выход"));
 
     }

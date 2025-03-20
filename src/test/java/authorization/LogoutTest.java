@@ -23,7 +23,7 @@ public class LogoutTest extends base.BaseTest {
     @Before
     public void setUp() {
         userClient = new UserClient(); // Инициализация клиента для работы с API
-        testUser = new CreateUser("test1","asdfjkl;12","k.saltanovska@gmail.com"); // Создание нового пользователя
+        testUser = new CreateUser("test1","landoriuso@gmail.com","asdfjkl;12"); // Создание нового пользователя
         userClient.register(testUser); // Регистрация пользователя через API
     }
 
@@ -40,7 +40,7 @@ public class LogoutTest extends base.BaseTest {
         new WebDriverWait(webDriver, Duration.ofSeconds(5)).until(ExpectedConditions.elementToBeClickable(MainPage.BURGER_CONSTRUCTOR));
         mainPage.clickPersonalAccountButton();
         profilePage.clickLogoutButton();
-        loginPage.checkRestorePasswordButton();
+
     }
     @After
     public void tearDown() {

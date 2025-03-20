@@ -1,20 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: authorization.AccountLoginTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 6.704 s <<< FAILURE! - in authorization.AccountLoginTest
-accountLogin(authorization.AccountLoginTest)  Time elapsed: 6.534 s  <<< FAILURE!
-java.lang.AssertionError: 
-
-Expected: a string starting with "Выход"
-     but: was ""
-	at authorization.AccountLoginTest.accountLogin(AccountLoginTest.java:42)
-
-accountLogin(authorization.AccountLoginTest)  Time elapsed: 6.534 s  <<< FAILURE!
-java.lang.AssertionError: 
-1 expectation failed.
-XML path success doesn't match.
-Expected: <true>
-  Actual: <nullErrorNot Found>
-
-	at authorization.AccountLoginTest.tearDown(AccountLoginTest.java:48)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.386 s - in authorization.AccountLoginTest
