@@ -40,6 +40,9 @@ public class LogoutTest extends base.BaseTest {
         new WebDriverWait(webDriver, Duration.ofSeconds(5)).until(ExpectedConditions.elementToBeClickable(MainPage.BURGER_CONSTRUCTOR));
         mainPage.clickPersonalAccountButton();
         profilePage.clickLogoutButton();
+        loginPage.checkRestorePasswordButton();//проверка, что есть кнопка восстановления пароля, она есть только если юзер неавторизован и находится на экране логина
+
+
 
     }
     @After

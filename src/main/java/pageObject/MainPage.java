@@ -5,9 +5,9 @@ import org.openqa.selenium.WebDriver;
 
 
 import static constants.Constants.BASE_URI;
-import static org.hamcrest.Matchers.aMapWithSize;
+
 import static org.hamcrest.Matchers.containsString;
-import static org.hamcrest.core.StringStartsWith.startsWith;
+
 
 public class MainPage {
     private final By personalAccountButton = By.xpath(".//p[text()='Личный Кабинет']");
@@ -34,8 +34,7 @@ public class MainPage {
     }
 
     public void findOrderButton(){
-        //String textOrderButton = webDriver.findElement(makeAnOrderButton).getText();
-        //MatcherAssert.assertThat(textOrderButton, startsWith("Оформить заказ"));
+
         webDriver.findElement(makeAnOrderButton);
     }
 
@@ -57,7 +56,7 @@ public class MainPage {
     }
     public void checkSauceList(){
         String text = webDriver.findElement(By.xpath(".//div[@style]/div[2]")).getAttribute("class");
-        MatcherAssert.assertThat(text, containsString("tab_tab__1SPyG"));
+        MatcherAssert.assertThat(text, containsString("tab_tab__1SPyG tab_tab_type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect"));
     }
     public void checkFillingList(){
         String text = webDriver.findElement(By.xpath(".//div[@style]/div[3]")).getAttribute("class");

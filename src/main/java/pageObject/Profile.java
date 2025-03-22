@@ -30,6 +30,6 @@ public class Profile {
     }
 
     public void clickLogoutButton(){
-        webDriver.findElement(logoButton).click();
+        webDriver.findElement(logOutButton).click();
     }
 }

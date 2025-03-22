@@ -1,9 +1,7 @@
 package constructor;
 
-import user.CreateUser;
-import user.User;
-import user.UserClient;
-import user.CreateUser;
+import user.*; //все импорты используются
+
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
 import org.junit.After;
