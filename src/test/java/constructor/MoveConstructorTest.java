@@ -29,6 +29,8 @@ public class MoveConstructorTest extends base.BaseTest {
     @Test
     @DisplayName("Переход к разделу «Булки».")
     public void navigationToBuns() {
+        mainPage.clickSauceTab(); //добавила для проверки перехода, так как раздел "Булки" активен при открытии страницы
+        mainPage.clickBunTab();
         mainPage.checkBunList();
     }
     @After
