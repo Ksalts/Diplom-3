@@ -1,0 +1,12 @@
+pageObject\Profile.class
+browser\Browser$1.class
+pageObject\MainPage.class
+user\User.class
+user\UserClient.class
+browser\BrowserType.class
+user\CreateUser.class
+browser\Browser.class
+constants\Constants.class
+pageObject\RegisterPage.class
+pageObject\RestorePasswordPage.class
+pageObject\LoginPage.class
